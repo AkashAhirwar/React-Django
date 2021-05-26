@@ -1,0 +1,13 @@
+.title-price > div > span {
+  margin: 10px;
+}
+
+.subtotal {
+  font-weight: 500;
+  color: #b12704;
+}
+
+.total {
+  font-weight: 500;
+  color: #b12704;
+}

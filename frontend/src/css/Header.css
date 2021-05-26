@@ -1,0 +1,101 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: rgb(35, 52, 72);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  width: 15%;
+  max-width: 100px;
+  margin: 0 5px;
+}
+
+.img {
+  width: 100%;
+}
+
+.search-box {
+  width: 50%;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 80%;
+  padding-left: 5px;
+}
+
+.search-btn-b {
+  height: 100%;
+  margin-left: -1px;
+}
+.search-btn {
+  height: 100%;
+  margin-left: -2em;
+  cursor: pointer;
+}
+.search-btn:hover {
+  opacity: 0;
+}
+
+.navbar {
+  width: 30%;
+  padding-right: 5px;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+}
+
+.signin {
+  align-self: center;
+  padding-right: 5px;
+}
+
+.signin > a {
+  color: whitesmoke;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.cart > a > img {
+  width: 100%;
+  max-width: 60px;
+  background-color: rgb(35, 52, 72);
+}
+
+#cartItems {
+  margin-left: -32px;
+  position: absolute;
+  color: aqua;
+}
+
+#user {
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 5px;
+}
+.dropdown {
+  display: block;
+  position: absolute;
+  background-color: rgb(35, 52, 72);
+  width: 100px;
+  margin-left: -2em;
+  margin-top: 1em;
+}
+.dropdown > a {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 5px;
+}
